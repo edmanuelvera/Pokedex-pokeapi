@@ -1,0 +1,75 @@
+*{
+     font-family: 'Silkscreen', cursive;
+}
+
+body{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cuerpodepokedex{
+    background-color: #c10202;
+    max-width: 225px;
+    top: 50px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cuerpodepokedex::before{
+    content: '';
+    background: radial-gradient(black 50%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: -1;
+}
+
+
+
+form {
+     width: 100%;
+     max-width: 600px;
+     margin: 0 auto;
+
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    background-color: #e1f9ff;
+}
+
+.poke-stats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-img {
+    width: 100px;
+    border-radius: 50%;
+}
+

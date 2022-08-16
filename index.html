@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi pokedex para github</title>
+	<script src="script.js" type="text/javascript" defer></script>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+	<div class="cuerpodepokedex">
+		<div data-poke-card class="poke-card"></div>
+
+
+			<form action="" onsubmit="searchPokemon(event)">
+				<input type="text" name="pokemon" autocomplete="off">
+			</form>
+
+<!-- Nombre de pokemon -->
+
+	<div data-poke-name>Pokedex</div>
+
+
+
+<!--Imagen de pokemon -->
+
+		<div data-poke-image-container class="img-container">
+		<img data-poke-img class="poke-img" src="nose.png">
+		</div>
+
+
+<!-- Información de pokemon -->
+
+	<div data-poke-id></div>
+    <div data-poke-stats class="poke-stats"></div>
+
+	</div>
+
+</body>
+</html>
